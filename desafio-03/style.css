@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 40px;
+    background-color: rgba(211, 211, 211, 0.397);
+    padding: 30px;
+
+}
+
+.container .column01 {
+    display: flex;
+    width: 100%;
+}
+
+.container .column01 .destaque h3, p {
+    margin: 6px 0;
+}
+
+.container .column01 .texto {
+    max-width: 550px;
+}
+
+.container .column02 .video {
+    display: flex;
+    margin: 10px auto;
+}
+
+.container .column02 .video .informacoes {
+    margin-left: 15px;
+}
