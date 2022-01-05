@@ -21,10 +21,6 @@ body {
     grid-gap: 10px;
 }
 
-.container .column01 {
-    display: flex;
-}
-
 .container .column01 .destaque h3, p {
     margin: 6px 0;
     max-width: 326px;
@@ -41,11 +37,6 @@ h2 {
 
 .container .column01 .visualizacoes {
     margin: 10px 0;
-}
-
-.container .column02 {
-    display: flex;
-    flex-direction: column;
 }
 
 .container .column02 .video {
@@ -68,7 +59,6 @@ h2 {
 }
 
 @media (max-width: 425px) {
-
     .container {
         max-width: 400px;
         margin: 40px auto;
